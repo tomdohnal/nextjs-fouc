@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3333",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "bulma": "^0.7.5",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
     "next": "9.3.1",
+    "ramda": "^0.27.0",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "sass": "^1.26.3",
+    "stacktrace-js": "^2.0.2"
   }
 }
