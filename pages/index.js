@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import css from '../styles/Index.module.sass'
+import css from '../styles/Index.module.css'
 
 const Home = () => (
   <div>
